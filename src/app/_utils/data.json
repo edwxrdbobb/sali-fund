@@ -1,0 +1,95 @@
+{
+   "faqData": [
+    {
+        "color": "bg-purple-100",
+        "emoticon_src": "/emoji/angry.png",
+        "question": "Who can use SALi Fund?",
+        "head_color": "text-gray-800",
+        "body_color": "text-gray-600",
+        "transform": "",
+        "answer": "SALi Fund is currently focused on supporting children and students in Sierra Leone who are facing health challenges and financial constraints."
+    },
+    {
+        "color": "bg-violet-500",
+        "emoticon_src": "/emoji/flushed.png",
+        "question": "How is SALi Fund different from other crowdfunding platforms?",
+        "head_color": "text-white",
+        "body_color": "text-gray-200",
+        "transform": "-rotate-6",
+        "answer": "SALi Fund is specifically designed for the Sierra Leonean context, with features like local payment integration, blockchain transparency, and AI health assistance tailored to the unique healthcare needs of the region."
+    },
+    {
+        "color": "bg-orange-100",
+        "emoticon_src": "/emoji/raised_eyebrow.png",
+        "question": "How does SALi Fund ensure the transparency of donations?",
+        "head_color": "text-gray-800",
+        "body_color": "text-gray-600",
+        "transform": "",
+        "answer": "SALi Fund uses blockchain technology to track and verify every donation, ensuring that funds are transparently and securely allocated to the intended recipients."
+    },
+    {
+        "color": "bg-lime-100",
+        "emoticon_src": "/emoji/unamused.png",
+        "question": "Can donors from outside Sierra Leone contribute?",
+        "head_color": "text-gray-800",
+        "body_color": "text-gray-600",
+        "transform": "",
+        "answer": "Yes, donors from around the world can contribute using blockchain or international payment options, making it easy to support health initiatives in Sierra Leone."
+    },
+    {
+        "color": "bg-sky-100",
+        "emoticon_src": "/emoji/grimacing.png",
+        "question": "How does the AI assistant help users?",
+        "head_color": "text-gray-800",
+        "body_color": "text-gray-600",
+        "transform": "",
+        "answer": "The AI assistant guides users through the platform, helping them find the right specialists, understand medical conditions, and manage healthcare expenses effectively."
+    }
+  ],
+    
+    "self_improvement_points": [
+        {"head": "It's not as easy as 1-2-3.", "body": "The journey of change may be long, but our sessions are quick. We get to the point and tell you what you want to know (and nothing else)."},
+        {"head": "Old habits are hard to break.", "body": "And bad behaviors die hard. Fortunately, we give you great, science-backed techniques to use."},
+        {"head": "You and your motivation don't have a long-term relationship.", "body": "Luckily, we can proactively prepare you for the marathon, not just the race. Effective, memorable exerciseswill help you stick to your goals."},
+        {"head": "Books just don't offer practical", "body": "Remember when you learned to ride a bike just by reading? Yeah, we don't either. We help you take concrete small steps towards your goals. Learning just a bit, then immediately springing into action."},
+        {"head": "Inspiration is great, but then what.", "body": "We make sure your energy from all the content you consume does not fizzle out."}
+      ],
+    
+    "star_steps": [
+        "Answer questions on your social skills",
+        "Let others anonymously answer the same questions about you",
+        "Find out where you and others see things the same way - and where not!"
+    ],
+    
+    "tile_scroll_list": [
+        {"head": "Power through, even when the going gets tough",
+          "body": "We help you spot and work around whatever stands in the way, be it bad habits, fears, etc."
+        },
+        {
+          "head": "Learn more about who you are and where you want to go",
+          "body": "We ask the right questions to help you better understand why you do things the way you do."
+        },
+        {
+          "head": "Play and grow together with others on the same journey",
+          "body": "Ahead feels like a game, not like a chore. See yourself grow every day towards achieving your goals!"
+        },
+        {
+          "head": "Master how to make it happen in real life",
+          "body": "We support you towards ninja-level skills with sleek tools such as dry-runs, quizzes, and flashcards."
+        },
+        {
+          "head": "Learn about practical skills that you can actually use in real life",
+          "body": "We teach you smart psychological techniques and habit-forming strategies that are easy to apply."
+        },
+        {
+          "head": "Get support that's made for your needs",
+          "body": "We build your personal roadmap of lessons and actions towards your goals."
+        }
+    ],
+    
+    "vacancy_list": [
+        {"head": "Senior Full-Stack Engineer", "points": ["Full-time position", "Berlin or remote", "€65-85k, 0.5-1.50% equity share options"]},
+        {"head": "Senior Designer", "points": ["Full-time position", "Berlin or remote", "€40-55k, 0.25-0.50% equity share options"]},
+        {"head": "Superstar Intern", "points": ["Full-time position", "Berlin or remote", "€20-24k, 0.5-1.50% equity share options"]}
+    ]
+}
