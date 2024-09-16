@@ -13,9 +13,33 @@ import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/all';
 import { useEffect, useState } from 'react';
 import data from './_utils/data.json' assert {type: 'json'}
+import FeatureCard from './_components/feactureCard';
 
 
 export default function Home() {
+  const features = [
+    {
+      title: "Financial Support",
+      description: "Crowdfunding platform for medical expenses with transparent blockchain-based donations and local payment options.",
+      icon: "💰"
+    },
+    {
+      title: "Health Expertise Access",
+      description: "Connect with specialists and receive AI-powered health assistance for personalized care.",
+      icon: "👨‍⚕️"
+    },
+    {
+      title: "Medication Verification",
+      description: "Blockchain-based authentication and tracking of medications to ensure safety and quality.",
+      icon: "💊"
+    },
+    {
+      title: "Medical Clinic Tracking",
+      description: "Locate nearby clinics, check real-time availability, and read community reviews.",
+      icon: "🏥"
+    }
+  ];
+
   gsap.registerPlugin(ScrollTrigger);
 
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
@@ -161,7 +185,7 @@ export default function Home() {
       </div>
 
       <div className="w-full px-8 py-20">
-        <div className="meet-app w-full relative overflow-clip rounded-3xl flex flex-col justify-center space-y-20 px-12 py-20 bg-orange-50">
+        <div className="meet-app w-full relative overflow-clip rounde d-3xl flex flex-col justify-center space-y-20 px-12 py-20 bg-orange-50">
 
           <div className="w-100 grid grid-cols-2 gap-x-10 z-30">
             <div className="move-in-left heading fade-in scale-up flex flex-col space-y-6">
@@ -203,11 +227,10 @@ export default function Home() {
 
             <div className="scale-up-left fade-in max-w-md flex flex-col space-y-3">
               <div className="leading-6 tracking-wide text-gray-600">
-                A personalized pocket coach that provides bite-sized, science-driven tools to boost emotional
-                intelligence.
+                The SALi App is an innovative mobile solution that bridges healthcare access for children and students in Sierra Leone. It connects individuals facing health challenges with donors and specialists through a user-friendly interface. 
               </div>
               <div className="leading-6 tracking-wide text-gray-600">
-                Think of it as a pocket cheerleader towards a better, more fulfilling.
+                The app utilizes blockchain for secure, transparent transactions and integrates local payment methods like Orange Money, allowing users to donate or receive funds easily. With AI assistance, the app ensures personalized support, making quality healthcare accessible regardless of economic status, even in areas with limited internet access.
               </div>
               <div className="">
                 <button class="bg-black text-sm text-white px-6 py-3 rounded-full">Go to Figma</button>
@@ -231,11 +254,11 @@ export default function Home() {
         <div className="self-improvement w-100 rounded-3xl flex flex-col justify-center space-y-16 px-12 py-10">
           <div className="heading flex flex-col space-y-6">
             <div className="move-in-left fade-in scale-up text-gray-700 text-md font-medium">
-              Wrong with self-improvement & how we're fixing it.
+              let's connect you with  donors
             </div>
             <div className="flex flex-row w-100 items-center space-x-4 relative">
               <div className="move-in-left fade-in scale-up text-5xl font-semibold">
-                Self-improvement. Ugh.
+                How to setup a funding campaign
               </div>
               <div className="flex-1 self-stretch relative flex flex-col justify-center">
                 <div className="absolute character-move-in w-16 h-16 flex justify-center items-center">
@@ -246,32 +269,46 @@ export default function Home() {
             </div>
           </div>
           
-          <BulletScroll points={data.self_improvement_points}></BulletScroll>
+          <BulletScroll points={data.start_campaign_steps}></BulletScroll>
 
         </div>
       </div>
-
+                
       <div className="py-20 px-20 flex flex-row space-x-8 justify-center">
         <div className="w-80 text-4xl font-semibold">
-          Be the best you with EQ
+          Why a Mobile App in Sierra Leone
         </div>
         <div className="w-80 leading-8 text-gray-600">
-          Not having your own emotions under control might be holding you back.
+          In Sierra Leone, mobile phone usage is widespread, with many people relying on mobile technology for communication, banking, and accessing information due to limited internet infrastructure. A mobile app allows for greater accessibility, enabling individuals to seek medical funding and assistance easily. 
         </div>
         <div className="w-80 leading-8 text-gray-600">
-          Additionally, not understanding those of others stops you from being parent, friend you can be.
+          It provides a user-friendly platform for connecting donors, healthcare professionals, and patients, even in remote areas. This approach bridges the gap between urban and rural communities, ensuring wider reach and impact
         </div>
       </div>
-
+                {/* key features go here */}
+      <div className="w-full px-8 py-20 bg-gray-100">
+        <h2 className="text-3xl font-semibold text-center mb-12">Key Features</h2>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+          {features.map((feature, index) => (
+            <FeatureCard
+              key={index}
+              title={feature.title}
+              description={feature.description}
+              icon={feature.icon}
+            />
+          ))}
+        </div>
+      </div>
+                
       <div className="w-100 px-8 py-20">
         <div className="w-100 social-skills rounded-3xl flex flex-col justify-center items-center space-y-16 px-12 py-10 bg-sky-50">
           
           <div className="flex flex-col heading space-y-6 items-center">
             <div className="text-gray-700 text-md font-medium">
-              Let your friends, family, and co-workers (anonymously) rate your social skills.
+              we will be focusing on these areas one after the other 
             </div>
             <div className="text-5xl font-semibold">
-              Ever wondered what others think of you?
+              SALi Fund's Primary Focus Areas:
             </div>
           </div>
 
@@ -291,27 +328,26 @@ export default function Home() {
 
           <div className="start-test w-[40em] flex flex-col justify-center items-center text-center">
             <div className="text-gray-700 py-2">
-              We take privacy seriously
+              we draw inspiration from all the kids seeking medical funding and specialist access
             </div>
             <div className="py-2 font-bold text-3xl">
-              Before you get started
+              SALi was inspired by IBRAHIM SORIE KAMARA
             </div>
             <div className="py-3 font-semibold text-xl text-gray-700">
-              "We won't share your answers with anyone (and won't ever tell you which friends said what about you)"
+              "Inspired by my cousin and close friend, Ibrahim Sorie Kamara, who is currently seeking funds for his critical sickle cell surgery"
             </div>
             <div className="py-4 flex flex-row items-end space-x-2">
               <div className="text-gray-700">
                 with love, 
               </div>
-              <div>
-                <img src="/signature4.png" width={100} className=""></img>
-              </div>
+              
             </div>
             <div className="py-4">
-              <button className="start-test-btn bg-black rounded-full text-white py-4 px-8 text-sm">Start a test</button>
+              <input type="email" placeholder="Enter your email" className="start-test-btn bg-white border border-gray-300 rounded-full text-black py-4 px-8 text-sm mx-4" />
+              <button className="start-test-btn bg-black rounded-full text-white py-4 px-8 text-sm">Join Waiting List</button>
             </div>
             <div className="text-sm text-gray-600">
-              Take only 5 minutes
+              Give us your email and we will notify you when the app is ready
             </div>
           </div>
 

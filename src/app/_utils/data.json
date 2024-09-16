@@ -47,18 +47,42 @@
     }
   ],
     
-    "self_improvement_points": [
-        {"head": "It's not as easy as 1-2-3.", "body": "The journey of change may be long, but our sessions are quick. We get to the point and tell you what you want to know (and nothing else)."},
-        {"head": "Old habits are hard to break.", "body": "And bad behaviors die hard. Fortunately, we give you great, science-backed techniques to use."},
-        {"head": "You and your motivation don't have a long-term relationship.", "body": "Luckily, we can proactively prepare you for the marathon, not just the race. Effective, memorable exerciseswill help you stick to your goals."},
-        {"head": "Books just don't offer practical", "body": "Remember when you learned to ride a bike just by reading? Yeah, we don't either. We help you take concrete small steps towards your goals. Learning just a bit, then immediately springing into action."},
-        {"head": "Inspiration is great, but then what.", "body": "We make sure your energy from all the content you consume does not fizzle out."}
-      ],
+  "start_campaign_steps": [
+  {
+    "head": "Create an Account",
+    "body": "Sign up for a new account on the SALi Fund platform using your email or phone number."
+  },
+  {
+    "head": "Setup Payment Method",
+    "body": "In your profile settings, add a preferred payment method for receiving funds."
+  },
+  {
+    "head": "Start a New Campaign",
+    "body": "From the navigation menu, click on the plus button to begin creating a new campaign."
+  },
+  {
+    "head": "Enter Campaign Details",
+    "body": "Set your target amount, create a compelling title, and write a detailed description of your cause."
+  },
+  {
+    "head": "Preview Campaign",
+    "body": "Review how your campaign will appear to potential donors before finalizing."
+  },
+  {
+    "head": "Save or Publish",
+    "body": "Choose to save your campaign as a draft for later editing or publish it immediately."
+  },
+  {
+    "head": "Receive Funds",
+    "body": "As donations come in, track your progress and receive funds through your chosen payment method."
+  }
+],
+
     
     "star_steps": [
-        "Answer questions on your social skills",
-        "Let others anonymously answer the same questions about you",
-        "Find out where you and others see things the same way - and where not!"
+        "Medical Funding and Specialist Access: Our immediate goal is to connect children and students in Sierra Leone with the financial support they need for medical treatment and to access health specialists, ensuring no one is deprived of essential care due to economic barriers.",
+        "Mental Health Support: Once we establish medical funding, we'll expand to provide mental health resources, offering support and professional help for those struggling with mental health issues.",
+        "Support for FGM Victims: We aim to address the issue of Female Genital Mutilation (FGM) by connecting victims with professional help, raising awareness, and offering care to those affected."
     ],
     
     "tile_scroll_list": [
