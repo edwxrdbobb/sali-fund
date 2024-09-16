@@ -354,7 +354,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="w-100 px-8 py-20">
+      {/* <div className="w-100 px-8 py-20">
         <div className="work-with-us w-100 rounded-3xl flex flex-row space-x-6 px-12 py-10 bg-purple-50">
           
           <div className="w-1/2 flex flex-col space-y-12">
@@ -419,7 +419,7 @@ export default function Home() {
 
           </div>
         </div>
-      </div>
+      </div> */}
       
       <Footer></Footer>
     </div>
