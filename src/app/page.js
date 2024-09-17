@@ -136,7 +136,7 @@ export default function Home() {
       <Navbar></Navbar>
       <HeroBanner></HeroBanner>
 
-      <div className="py-20 px-20 flex flex-row space-x-8 justify-center">
+      <div id="about" className="py-20 px-20 flex flex-row space-x-8 justify-center">
         <div className="w-80 text-4xl font-semibold">
             <h2>
               Why SALi
@@ -184,7 +184,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="w-full px-8 py-20">
+      <div className="w-full px-8 py-20" id="theApp">
         <div className="meet-app w-full relative overflow-clip rounde d-3xl flex flex-col justify-center space-y-20 px-12 py-20 bg-orange-50">
 
           <div className="w-100 grid grid-cols-2 gap-x-10 z-30">
@@ -364,7 +364,7 @@ export default function Home() {
             <div className="w-[30rem] rounded-xl flex flex-col overflow-clip">
               {
                 [
-                  {"head": "About", "color": "bg-white", "body": "At ahead our goal is to make self-improvement fun and lasting. We know there's a way how to make it work. And that's what aHead is all about!"},
+                  {"head": "About", "color": "bg-white", "body": "At sali our goal is to make self-improvement fun and lasting. We know there's a way how to make it work. And that's what aHead is all about!"},
                   {"head": "Product", "color": "bg-orange-50", "body": "Sure, you could spend ages reading books or sitting in seminars on how to become a better spouse, parent, or manager - like we did..."}
                 ].map((item, index) =>(
                   <div className={`p-6 flex flex-col ${item.color}`}>
@@ -391,7 +391,7 @@ export default function Home() {
           
           <div className="flex flex-col space-y-12">
             <div className="move-in-right fade-in scale-up text-5xl font-semibold text-violet-600 self-end pr-12">
-              ahead
+              sali
             </div>
             <div className="w-[30rem] h-[30rem]">
               <TileScroll list={data.tile_scroll_list}></TileScroll>
