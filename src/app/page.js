@@ -162,26 +162,9 @@ export default function Home() {
           <Analytics></Analytics>
           </div>
           </div>
-      <div className="w-full sounds-familiar overflow-x-clip py-20">
-        <div className="flex flex-row">
-          <div className="move-in-left heading fade-in scale-up pl-16 pr-8 text-5xl font-semibold pb-16">
-           FAQ
-          </div>
-          <div className="w-16 h-16 relative flex justify-center items-center self-start character-move-in">
-            <img src="/character/nerd-1.png" className="absolute z-10"></img>
-            <img src="/character/nerd-bg-red.png" className="absolute opacity-10 scale-125 opacity-20"></img>
-          </div>
-        </div>
- 
-        <div className="w-full overflow-x-clip flex flex-row justify-end py-4">
-          <div className="emoticon-tile-container w-fit mx-auto flex flex-row px-8 items-center space-x-8">
-            <EmoticonTile {...data.faqData[0]}></EmoticonTile>
-            <EmoticonTile {...data.faqData[1]}></EmoticonTile>
-            <EmoticonTile {...data.faqData[2]}></EmoticonTile>
-            <EmoticonTile {...data.faqData[3]}></EmoticonTile>
-            <EmoticonTile {...data.faqData[4]}></EmoticonTile>
-          </div>
-        </div>
+
+      <div className="w-full overflow-x-clip py-20">
+        
       </div>
 
       <div className="w-full px-8 py-20" id="theApp">
@@ -208,10 +191,11 @@ export default function Home() {
                     <img
                       key={src}
                       src={src}
-                      className={`character w-1/2 absolute transition-all duration-500 ${
+                      className={`character w-[150px] absolute transition-all duration-500 ${
                         index === currentImageIndex ? 'opacity-100 z-20' : 'opacity-0 z-10'
                       }`}
                       alt={`App screenshot ${index + 1}`}
+                      style={{ maxWidth: '100%', height: 'unset' }}
                     />
                   ))}
                 </div>
@@ -354,6 +338,28 @@ export default function Home() {
         </div>
       </div>
 
+
+      <div className="w-full sounds-familiar overflow-x-clip py-20">
+        <div className="flex flex-row">
+          <div className="move-in-left heading fade-in scale-up pl-16 pr-8 text-5xl font-semibold pb-16">
+           FAQ
+          </div>
+          <div className="w-16 h-16 relative flex justify-center items-center self-start character-move-in">
+            <img src="/character/nerd-1.png" className="absolute z-10"></img>
+            <img src="/character/nerd-bg-red.png" className="absolute opacity-10 scale-125 opacity-20"></img>
+          </div>
+        </div>
+ 
+        <div className="w-full overflow-x-clip flex flex-row justify-end py-4">
+          <div className="emoticon-tile-container w-fit mx-auto flex flex-row px-8 items-center space-x-8">
+            <EmoticonTile {...data.faqData[0]}></EmoticonTile>
+            <EmoticonTile {...data.faqData[1]}></EmoticonTile>
+            <EmoticonTile {...data.faqData[2]}></EmoticonTile>
+            <EmoticonTile {...data.faqData[3]}></EmoticonTile>
+            <EmoticonTile {...data.faqData[4]}></EmoticonTile>
+          </div>
+        </div>
+      </div>
       {/* <div className="w-100 px-8 py-20">
         <div className="work-with-us w-100 rounded-3xl flex flex-row space-x-6 px-12 py-10 bg-purple-50">
           

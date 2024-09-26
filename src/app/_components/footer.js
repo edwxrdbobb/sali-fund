@@ -3,7 +3,7 @@ import AppStoreButton from "./app_store_button";
 
 export default function Footer() {
     const contacts = [
-        {"image_url": "/location-dot-solid.svg", "image_h": 10, "image_w": 10, "text": "Auguststraße 26, 10117 Berlin"},
+        {"image_url": "/location-dot-solid.svg", "image_h": 10, "image_w": 10, "text": "Freetown, Sierra Leone"},
         {"image_url": "/envelope-solid.svg", "image_h": 12, "image_w": 12, "text": "hi@sali-app.com"},
     ]
 
